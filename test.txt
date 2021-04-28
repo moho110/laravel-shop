@@ -1,0 +1,134 @@
+php artisan make:migration create_ad_positions_table --create=ad_positions
+php artisan make:migration create_ads_table --create=ads
+php artisan make:migration create_areas_table --create=areas
+php artisan make:migration create_article_cats_table --create=article_cats
+php artisan make:migration create_articles_table --create=articles
+php artisan make:migration create_attributes_table --create=attributes
+php artisan make:migration create_banks_table --create=banks
+php artisan make:migration create_brands_table --create=brands
+php artisan make:migration create_carts_table --create=carts
+php artisan make:migration create_cash_configs_table --create=cash_configs
+php artisan make:migration create_cash_draws_table --create=cash_draws
+php artisan make:migration create_cat_brands_table --create=cat_brands
+php artisan make:migration create_data_cats_table --create=data_cats
+php artisan make:migration create_express_table --create=express
+php artisan make:migration create_favorites_table --create=favorites
+php artisan make:migration create_freight_table --create=freight
+php artisan make:migration create_friendlinks_table --create=friendlinks
+php artisan make:migration create_goods_table --create=goods
+php artisan make:migration create_goods_appraises_table --create=goods_appraises
+php artisan make:migration create_goods_attributes_table --create=goods_attributes
+php artisan make:migration create_goods_cats_table --create=goods_cats
+php artisan make:migration create_goods_scores_table --create=goods_scores
+php artisan make:migration create_home_menus_table --create=home_menus
+php artisan make:migration create_images_table --create=images
+php artisan make:migration create_log_moneys_table --create=log_moneys
+php artisan make:migration create_log_operates_table --create=log_operates
+php artisan make:migration create_log_orders_table --create=log_orders
+php artisan make:migration create_log_sms_table --create=log_sms
+php artisan make:migration create_log_staff_logins_table --create=log_staff_logins
+php artisan make:migration create_log_user_logins_table --create=log_user_logins
+php artisan make:migration create_orderids_table --create=orderids
+php artisan make:migration create_payments_table --create=payments
+php artisan make:migration create_privileges_table --create=privileges
+php artisan make:migration create_navs_table --create=navs
+php artisan make:migration create_orders_table --create=orders
+php artisan make:migration create_order_goods_table --create=order_goods
+php artisan make:migration create_order_refunds_table --create=order_refunds
+php artisan make:migration create_menus_table --create=menus
+php artisan make:migration create_messages_table --create=messages
+php artisan make:migration create_recommends_table --create=recommends
+php artisan make:migration create_roles_table --create=roles
+php artisan make:migration create_staffs_table --create=staffs
+php artisan make:migration create_styles_table --create=styles
+php artisan make:migration create_sys_configs_table --create=sys_configs
+php artisan make:migration create_user_address_table --create=user_address
+php artisan make:migration create_user_ranks_table --create=user_ranks
+php artisan make:migration create_user_scores_table --create=user_scores
+php artisan make:migration create_users_table --create=users
+///////////////////////////////////////////////////////////////////////////
+////////////////////////////////
+php artisan make:controller Admin/Controllers/AdPositionsController
+php artisan make:controller Admin/Controllers/AdsController
+php artisan make:controller Admin/Controllers/AreasController
+php artisan make:controller Admin/Controllers/ArticleCatsController
+php artisan make:controller Admin/Controllers/ArticlesController
+php artisan make:controller app/Admin/Controllers/AttributesController
+php artisan make:controller Admin/Controllers/AdPositionsController
+php artisan make:controller Admin/Controllers/AdPositionsController
+php artisan make:controller Admin/Controllers/AdPositionsController
+php artisan make:controller Admin/Controllers/AdPositionsController
+php artisan make:controller Admin/Controllers/AdPositionsController
+php artisan make:controller Admin/Controllers/AdPositionsController
+php artisan make:controller Admin/Controllers/AdPositionsController
+php artisan make:controller Admin/Controllers/AdPositionsController
+php artisan make:controller Admin/Controllers/AdPositionsController
+php artisan make:controller Admin/Controllers/AdPositionsController
+php artisan make:controller Admin/Controllers/AdPositionsController
+php artisan make:controller Admin/Controllers/AdPositionsController
+php artisan make:controller Admin/Controllers/AdPositionsController
+php artisan make:controller Admin/Controllers/AdPositionsController
+php artisan make:controller Admin/Controllers/AdPositionsController
+php artisan make:controller Admin/Controllers/AdPositionsController
+php artisan make:controller Admin/Controllers/AdPositionsController
+php artisan make:controller Admin/Controllers/AdPositionsController
+php artisan make:controller Admin/Controllers/AdPositionsController
+php artisan make:controller Admin/Controllers/AdPositionsController
+php artisan make:controller Admin/Controllers/AdPositionsController
+php artisan make:controller Admin/Controllers/AdPositionsController
+php artisan make:controller Admin/Controllers/AdPositionsController
+php artisan make:controller Admin/Controllers/AdPositionsController
+php artisan make:controller Admin/Controllers/AdPositionsController
+php artisan make:controller Admin/Controllers/AdPositionsController
+php artisan make:controller Admin/Controllers/AdPositionsController
+php artisan make:controller Admin/Controllers/AdPositionsController
+php artisan make:controller Admin/Controllers/AdPositionsController
+/////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////
+php artisan make:model Models/AdPositions
+php artisan make:model Models/Ads
+php artisan make:model Models/Areas
+php artisan make:model Models/ArticleCats
+php artisan make:model Models/Articles
+php artisan make:model Models/Attributes
+php artisan make:model Models/Banks
+php artisan make:model Models/Brands
+php artisan make:model Models/Carts
+php artisan make:model Models/CashConfigs
+php artisan make:model Models/CashDraws
+php artisan make:model Models/CatBrands
+php artisan make:model Models/DataCats
+php artisan make:model Models/Datas
+php artisan make:model Models/Express
+php artisan make:model Models/Favorites
+php artisan make:model Models/Freights
+php artisan make:model Models/Goods
+php artisan make:model Models/GoodsAppraises
+php artisan make:model Models/GoodsAttributes
+php artisan make:model Models/GoodsCats
+php artisan make:model Models/GoodsScores
+php artisan make:model Models/HomeMenus
+php artisan make:model Models/Images
+php artisan make:model Models/LogMoneys
+php artisan make:model Models/LogOperates
+php artisan make:model Models/LogOrders
+php artisan make:model Models/LogStaffLogins
+php artisan make:model Models/LogUserLogins
+php artisan make:model Models/Menus
+php artisan make:model Models/Messages
+php artisan make:model Models/Navs
+php artisan make:model Models/OrderGoods
+php artisan make:model Models/OrderRefunds
+php artisan make:model Models/Orderids
+php artisan make:model Models/Orders
+php artisan make:model Models/Payments
+php artisan make:model Models/Privileges
+php artisan make:model Models/Recommends
+php artisan make:model Models/Roles
+php artisan make:model Models/Staffs
+php artisan make:model Models/Styles
+php artisan make:model Models/SysConfigs
+php artisan make:model Models/UserAddress
+php artisan make:model Models/UserRanks
+php artisan make:model Models/UserScores
+php artisan make:model Models/Users
